@@ -1,7 +1,5 @@
 package com.bk.pushtest;
 
-import com.google.android.gcm.GCMBaseIntentService;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -10,6 +8,8 @@ import android.content.Intent;
 import android.os.Vibrator;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.google.android.gcm.GCMBaseIntentService;
 
 public class GCMIntentService extends GCMBaseIntentService {
 

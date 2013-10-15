@@ -11,7 +11,6 @@ import com.google.android.gcm.GCMRegistrar;
 
 public class PushTestActivity extends Activity {
 
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
